@@ -1,0 +1,219 @@
+/* home */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	
+}
+body{
+	background-image: url("background2.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style: none;
+    margin-top: 20px;
+}
+ul li{
+	display: inline-table;
+}
+ul li a{
+	text-decoration: none;
+	color: yellow;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+}
+ul li a:hover{
+	background-color: white;
+	color: darkred;
+}
+ul li.active a{
+	background-color: white;
+	color: darkred;
+}
+.logo img{
+	float: left;
+	width: 120px;
+	height: auto;
+}
+.vic{
+    max-width: 1200px;
+    margin: auto;
+}
+.say {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.say h1{
+	font-size: 80px;
+	font-style: italic;
+	color: blue;
+	display: inline-block;
+}
+.say img{
+	height: 250px;
+	vertical-align: middle;
+}
+/* page1 */
+.product img{
+	padding: 100px;
+	height: 500px;
+	vertical-align: middle;
+
+}
+
+/* page2 */
+.tp p{
+    text-align: center;
+    padding: 250px;
+    font-size: 20px;
+    font-style: italic;
+    color: yellow;
+}
+/* page3 */
+.infotwo p{
+    text-align: center;
+    padding: 250px;
+    font-size: 20px;
+    font-style: italic;
+    color: yellow;
+}
+/* page4 */
+.infothree p{
+	text-align: center;
+    padding: 250px;
+    font-size: 20px;
+    font-style: italic;
+    color: yellow;
+}
+.link p{
+	text-decoration: none;
+	color: blue;
+	padding: 100;
+	
+}
+/* page5*/
+.head  h1{
+	text-align: center;
+    padding: 100px;
+    font-size: 50px;
+    font-style: serif;
+    color: white;
+}
+.head  h2{
+	text-align: center;
+    font-size: 30px;
+    font-style: bold;
+    color: yellow;
+}
+
+.head  p{
+	text-align: center;
+    font-size: 20px;
+    font-style: bold;
+    color: whitesmoke;
+}
+.head  h3{
+	text-align: center;
+    font-size: 30px;
+    font-style: bold;
+    color: yellow;
+    }
+.head h4{
+	text-align: center;
+    font-size: 30px;
+    font-style: bold;
+    color: yellow;
+}
+.head  p{
+	text-align: center;
+    font-size: 20px;
+    font-style: bold;
+    color: whitesmoke;
+    }
+/* page 6 */
+.tb h1 {
+	text-align: center;
+    padding: 100px;
+    font-size: 50px;
+    font-style: serif;
+    color: white;
+}
+.tb p{
+	text-align: center;
+    font-size: 30px;
+    font-style: bold;
+    color: whitesmoke;
+}
+/* page7 */
+.code h1{
+	text-align: right;
+    padding: 25px;
+    font-size: 50px;
+    font-style: serif;
+    color: white;
+    background-color: blue;
+}
+.code h2{
+	text-align: center;
+    font-size: 30px;
+    font-style: serif;
+    color: white;
+}
+.code p{
+	text-align: center;
+    font-size: 20px;
+    font-style: bold;
+    color: whitesmoke;
+}
+.code h3{
+	text-align: center;
+    font-size: 30px;
+    font-style: serif;
+    color: white;
+}
+/*page8*/
+.timed h1{
+	padding: 50px;
+	text-decoration: underline;
+	text-align: center;
+	color: white;
+}
+.timed img{
+	height: 250px;
+	width: 1350px;
+	border-radius: 5%;
+}
+/*page9*/
+.bargraph h1{
+	padding: 50px;
+	color: white;
+	text-align: center;
+	font-size: 20;
+	font-style: roman;
+}
+.compilebar{
+	position: relative;
+	
+}
+
+/*page10*/
+.photo img{
+	border-radius: 40%;
+	display: block;
+	height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pt p{
+	font-size: 30px;
+	font-style: italic;
+	color: white;
+	text-align: center;
+	}
